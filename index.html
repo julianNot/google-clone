@@ -5,24 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="author" content="Julian Ardila Argüello">
-    <link rel="stylesheet" href="../styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">
     <title>GoogleClone</title>
 </head>
 <body>
     <header>
-        <nav>
-            <a href="">Gmail</a>
-            <a href="">Imágenes</a>
-            <a href=""><img src="icons/apps.svg" alt="Aplicaciones"></a>
-            <a href=""><img src="icons/person.svg" alt="Perfil"></a>
+        <nav class="navbar">
+            <a class="nav-link nav-element" href="">Gmail</a>
+            <a class="nav-link nav-element" href="">Imágenes</a>
+            <div class="shadow-img nav-elemen"><a class="nav-img" href=""><img src="icons/apps.svg" alt="Aplicaciones"></a></div>
+            <div class="shadow-img"><a class="nav-img" href=""><img src="icons/person.svg" alt="Perfil"></a></div>
         </nav>
     </header>
     <main>
         <img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" alt="">
-        <input type="text" name="" id="">
-        <button>Buscar con Google</button>
-        <button>Me siento con suerte</button>
-        <p>Ofrecido por Google en: <a href="">Español(Latinoamérica)</a> </p>
+        <div>
+            <img src="icons/microphone.svg" alt="">
+            <input type="text" name="" id="">
+        </div>
+        <div>
+            <button>Buscar con Google</button>
+            <button>Me siento con suerte</button>
+            <p>Ofrecido por Google en: <a href="">Español(Latinoamérica)</a> </p>
+        </div>
     </main>
+    <footer>
+        <p>Colombia</p>
+        <div>
+            <a href="">Sobre Google</a>
+            <a href="">Publicidad</a>
+            <a href="">Negocios</a>
+            <a href="">Cómo funciona la Búsqueda</a>
+        </div>
+        <div>
+            <a href="">Privacidad</a>
+            <a href="">Condiciones</a>
+            <a href="">Preferencias</a>
+        </div>
+    </footer>
 </body>
 </html>
