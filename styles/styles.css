@@ -104,34 +104,44 @@ body{
 }
 
 /* Footer */
+.content-footer{
+    background-color: #f2f2f2;
+}
 
-.txt{
-    padding: 15px 30px;
-    color: rgba(0, 0, 0, 0.7);
-    font-size: 95%;
-    padding-top: 0px;
+p{
+    padding: 0;
     margin: 0;
-
 }
 
 .fcountry{
-    border-bottom: 1px solid #aaa;
+    padding: 15px 30px;
+    border-bottom: 1px solid #dadce0;
+    color: rgba(0, 0, 0, 0.45);
 }
 
-.container{
+.content-info{
     display: flex;
-    align-items: center;
     justify-content: space-between;
 }
 
 .content-left, .content-right{
-    display: inline;
-
+    padding: 15px 30px;
 }
 
-.content-footer{
+.link{
+    color: rgba(0, 0, 0, 0.45);
+    padding-right: 15px;
+    text-decoration: none;
+}
+
+.link:hover{
+    text-decoration: underline;
+}
+
+footer{
     position: absolute;
-    bottom: 0;
+    width: 100%;
     left: 0;
     right: 0;
+    bottom: 0px;
 }
